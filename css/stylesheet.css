@@ -1,13 +1,3 @@
-
-.educat {
-    border: 1px solid rgb(217, 230, 238);
-    background-color: rgb(228, 241, 248);
-    padding: 1rem;
-    padding-top: 0.5rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
 .mypic {
     display: block;  
     border: 5px double rgb(68, 88, 102) ; 
@@ -153,6 +143,7 @@ nav {
 
     .educat {
         font-size: 100%;
+        
     }
 
     .exprbut {
@@ -163,12 +154,12 @@ nav {
        width:57%;
     }
 
-    .title {
+    /* .title {
         size:80%;
         position:relative;
         top:-120px;
         left:8%;
-    }
+    } */
 
     .title {
         size:80%;
@@ -202,16 +193,7 @@ nav {
     color:rgb(145, 177, 206);
     font-family: Arial, Helvetica, sans-serif;
     text-decoration:none;
-} 
-
-.sklbut {
-    display:flex;
-    position:relative;
-    top:-4.5rem;
-    color:rgb(145, 177, 206);
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration:none;
-} 
+}  
 /*--------^------------------------------^--------------*/
 
 /*-------Introductory statement-----------*/
@@ -247,31 +229,39 @@ nav {
     font-family:Arial, Helvetica, sans-serif;
     text-decoration:underline;
 } 
-/*-------^-------End of navbar links--------^----------*/
+/*--------------^-----------------End of navbar links----------------^----------*/
+
+/*-------V-------Content font style--------V----------*/
+.educat {
+    border: 1px;
+    background-color:  rgb(242, 250, 255);
+    padding: 1rem;
+    padding-top: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 5%;
+}
 
  
-/*---Headers: Education,Experience,Skills,Contact Details---*/
+/*----------Headers: Education,Experience------------*/
 h2 {
     color:rgb(102, 68, 68);
 }
  
-/*Headers:Job1,Job2*/
 h3 {
     color:rgb(94, 103, 110);
 }
  
 /*Unorderdered lists*/
 ul {
-   
-     font-weight: normal;
-     display: inline-block; 
-     width: lem; 
-     margin-left: -2em;
-     
+    font-weight: normal;
+    display: inline-block; 
+    width: lem; 
+    margin-left: -2em;
 }  
  
 footer {
-    background-color: rgb(228, 241, 248);
+    background-color: rgb(242, 250, 255);
 }
  
  /*--------v---------Links in body/footer------------v------------*/
@@ -312,3 +302,7 @@ footer {
 } 
 /*--------^---------End of links in body/footer------------^------------*/
  
+/*---Text area input form----*/
+label,input {
+    display: block;
+}
