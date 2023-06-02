@@ -1,0 +1,314 @@
+
+.educat {
+    border: 1px solid rgb(217, 230, 238);
+    background-color: rgb(228, 241, 248);
+    padding: 1rem;
+    padding-top: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.mypic {
+    display: block;  
+    border: 5px double rgb(68, 88, 102) ; 
+    border-radius: 50%;
+}
+
+.header {
+    background-color: rgb(62, 72, 90);
+    margin-top:-39px;
+    margin-bottom: 15px;
+    
+}
+
+h1 {
+    color:rgb(235, 235, 235);
+    padding:50px;
+    margin-left: 20%;
+    margin-right:20%; 
+    font-family: Arial, Helvetica, sans-serif;
+}  
+ 
+/*-----------------V-----------Navigation block-------------V--------------*/
+nav {
+    height:1.2rem;
+    border: solid 1px;
+    color:rgb(10, 10, 10);
+    background-color: rgb(10, 10, 10);
+    padding:3px;
+    padding-left: 20px;
+    padding-right: 5px;
+} 
+
+ /*-----------------V------------Media queries MOBILE-----------V-----------------*/
+@media only screen and (max-width: 600px) {
+
+    .educat {
+        font-size: 70%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .mypic {
+        z-index:2;
+        max-width:40%; 
+        max-height: auto;
+        margin-top:-10rem;
+        margin-bottom:-6rem;
+    }
+
+    .header {
+        margin-left: 7%;
+        margin-right: 10%;
+        padding-bottom: 20px;
+    }
+
+    h1 {
+       margin-left: 1%;
+        /* margin-right:30%;  */
+        margin-top:-10px;
+        padding-top:-30px;
+        font-size:300%;
+    }  
+
+    .edubut {
+        margin-left: -1rem;
+    } 
+    
+    .exprbut {
+       margin-left: 4rem;
+               
+    } 
+
+    .sklbut {
+        margin-left: 10rem;
+    } 
+
+    .title {
+        size:80%;
+        position:relative;
+        top:-80px;
+        margin-left:50%;
+    }
+
+    nav {
+        margin-left: 150px; 
+        size:80%;
+    }
+}
+
+/*-------------V---------------Media queries TABLET------------V--------------------*/
+@media only screen and (min-width: 600px) {
+
+    .educat {
+       font-size: 80%;
+    }
+
+    .mypic {
+        max-width:70%; 
+        max-height: auto;
+        margin-bottom:-3rem;
+    }
+
+    .exprbut {
+       margin-left: 8rem;
+    } 
+
+    .sklbut {
+        margin-left: 15rem;
+        right:-26px;
+    } 
+
+    .title {
+        margin-left: 14rem;
+        size:80%;
+        position:relative;
+        top:-120px;
+        left:13%;
+    }
+
+    nav {
+       width:40%
+    }
+
+    .header {
+        margin-left: 9%;
+        margin-right: 10%;
+        padding-bottom: 50px;
+    }
+
+    h1 {
+        margin-left: 20%;
+         margin-right:40%; 
+         margin-top:-10px;
+         padding-top:-30px;
+         font-size:300%;
+    }  
+}
+
+/*-------------V-------------Media queries DESKTOP--------------V------------------*/
+@media only screen and (min-width: 992px) {
+
+    .educat {
+        font-size: 100%;
+    }
+
+    .exprbut {
+       margin-left: 8rem;
+    } 
+
+    nav {
+       width:57%;
+    }
+
+    .title {
+        size:80%;
+        position:relative;
+        top:-120px;
+        left:8%;
+    }
+
+    .title {
+        size:80%;
+        position:relative;
+        top:-80px;
+        margin-left:50%;
+    }
+}
+/*-------------^-------------End of Media queries--------------^------------------/*
+
+
+ /*-----v----Introduction-----v-----*/
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(155, 158, 194); 
+}
+
+/* ---v----Nav Links to content subheaders-----v----*/
+.edubut {
+    display:flex;
+    position:relative;
+    color:rgb(145, 177, 206);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:none;
+} 
+
+ .exprbut {
+    display:flex;
+    position:relative;
+    top:-2.23rem;
+    color:rgb(145, 177, 206);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:none;
+} 
+
+.sklbut {
+    display:flex;
+    position:relative;
+    top:-4.5rem;
+    color:rgb(145, 177, 206);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:none;
+} 
+/*--------^------------------------------^--------------*/
+
+/*-------Introductory statement-----------*/
+.title {
+    margin-left:23%;
+    color:rgb(206, 229, 252);
+} 
+ 
+/*-------------Education mouse over link---------------*/
+.edubut:hover {
+    color:rgb(44, 148, 240);
+    position:relative;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration:underline;
+} 
+  
+/*--------------*Experience mouse over link-------------*/
+.exprbut:hover {
+    display:flex;
+    position:relative;
+    margin-left: 8rem;
+    top:-2.23rem;
+    color:rgb(44, 148, 240);
+    position:relative;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration:underline;
+} 
+  
+/*---------------Skills mouse over link---------------*/
+.sklbut:hover {
+    color:rgb(44, 148, 240);
+    position:relative;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration:underline;
+} 
+/*-------^-------End of navbar links--------^----------*/
+
+ 
+/*---Headers: Education,Experience,Skills,Contact Details---*/
+h2 {
+    color:rgb(102, 68, 68);
+}
+ 
+/*Headers:Job1,Job2*/
+h3 {
+    color:rgb(94, 103, 110);
+}
+ 
+/*Unorderdered lists*/
+ul {
+   
+     font-weight: normal;
+     display: inline-block; 
+     width: lem; 
+     margin-left: -2em;
+     
+}  
+ 
+footer {
+    background-color: rgb(228, 241, 248);
+}
+ 
+ /*--------v---------Links in body/footer------------v------------*/
+.linkediname {
+    font-weight:bold;
+    top:5vh;
+    left:-5vh;
+}
+  
+/*unvisited link*/
+.external:link {
+    color:rgb(67, 74, 80);
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration:none;
+    position:relative;
+} 
+ 
+ /*visited link*/
+  .external:visited {
+    color:rgb(81, 118, 146);
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration:none;
+} 
+ 
+/*mouse over link*/
+.external:hover {
+    color:rgb(35, 115, 219);
+    font-size:100%;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration:underline;
+} 
+ 
+/*selected link*/
+.external:activate {
+     color:rgb(68, 146, 248);
+     font-family:Arial, Helvetica, sans-serif;
+     text-decoration:underline;
+} 
+/*--------^---------End of links in body/footer------------^------------*/
+ 
