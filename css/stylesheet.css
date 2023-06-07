@@ -67,7 +67,7 @@ nav {
     } 
     
     .exprbut {
-       margin-left: 8rem;
+       margin-left: 6rem;
                
     } 
 
@@ -83,8 +83,9 @@ nav {
     }
 
     nav {
-        margin-left: 150px; 
+        margin-left: 5%; 
         size:80%;
+        width:200px;
     }
 }
 
