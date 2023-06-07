@@ -57,7 +57,6 @@ nav {
 
     h1 {
        margin-left: 1%;
-        /* margin-right:30%;  */
         margin-top:-10px;
         padding-top:-30px;
         font-size:300%;
@@ -68,7 +67,7 @@ nav {
     } 
     
     .exprbut {
-       margin-left: 4rem;
+       margin-left: 8rem;
                
     } 
 
@@ -153,13 +152,6 @@ nav {
     nav {
        width:57%;
     }
-
-    /* .title {
-        size:80%;
-        position:relative;
-        top:-120px;
-        left:8%;
-    } */
 
     .title {
         size:80%;
